@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE bookstore [
+<!ELEMENT bookstore (book+)>
+<!ELEMENT book (title, author, sid, price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT sid (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookstore>
+  <book>
+    <title>IRON MAN</title>
+    <author>DARK</author>
+    <sid>1</sid>
+    <price>10</price>
+  </book>
+</bookstore>
